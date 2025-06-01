@@ -1,5 +1,5 @@
 rules:
   unpinned-uses:
     ignore:
-      - quality.yaml
-      - publish.yaml
+      - quality.yml
+      - publish.yml
