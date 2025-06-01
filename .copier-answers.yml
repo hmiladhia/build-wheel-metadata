@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v0.2.0-7-g922bc3c
+_commit: v0.3.0
 _src_path: https://github.com/hmiladhia/package-template
 author: Dhia Hmila
 distribution_name: build-wheel-metadata
