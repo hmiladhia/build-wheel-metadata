@@ -11,9 +11,38 @@ Module to prepare a python package distribution metadata.
 
 ## Quick Start
 
-```
+```bash
 pip install build-wheel-metadata
 ```
 
-## Contribute
-...
+## Usage
+
+```python
+from build_wheel_metadata import prepare_metadata
+
+metadata = prepare_metadata(
+    project_root.as_posix(), isolate=True
+)
+
+
+print(metadata)
+```
+
+Result:
+
+```json
+{
+  "Author": "Dhia Hmila",
+  "Classifier": "Intended Audience :: Developers",
+  "Description": "...",
+  "Description-Content-Type": "text/markdown",
+  "License": "MIT License",
+  "Metadata-Version": "2.4",
+  "Name": "build-wheel-metadata",
+  "Project-URL": "Repository, https://github.com/dhiahmila/build-wheel-metadata",
+  "Requires-Dist": "build>=1.2.2.post1",
+  "Requires-Python": ">=3.9",
+  "Summary": "Module to prepare a python package distribution metadata.",
+  "Version": "0.0.1"
+}
+```
