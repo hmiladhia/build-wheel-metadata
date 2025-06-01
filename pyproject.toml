@@ -24,8 +24,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/dhiahmila/build-wheel-metadata"
-Issues = "https://github.com/dhiahmila/build-wheel-metadata/issues"
+Repository = "https://github.com/hmiladhia/build-wheel-metadata"
+Issues = "https://github.com/hmiladhia/build-wheel-metadata/issues"
 
 [dependency-groups]
 dev = [{ include-group = "tests" }]
